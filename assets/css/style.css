@@ -5,7 +5,7 @@ body {
 
 #title-text {
   height: 100px;
-  width: 100px;
+  width: 300px;
   margin: 10px;
   padding-top: 20px;
   background-color: #e0ffff;
@@ -14,6 +14,8 @@ body {
 }
 
 #instructions-row {
+  height: 250px;
+  width: 600px;
   margin: 10px;
   padding-left: 10px;
   text-justify: auto;
@@ -21,13 +23,18 @@ body {
 }
 
 #random-number {
-  margin: 10px;
-  padding-top: 20px;
   background-color: #e0ffff;
 }
 
 #wins-losses {
   margin: 10px;
+  padding-top: 20px;
+  background-color: #e0ffff;
+}
+
+#totalScore {
+  margin: 10px;
+  padding-left: 10px;
   padding-top: 20px;
   background-color: #e0ffff;
 }

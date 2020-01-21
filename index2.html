@@ -11,6 +11,67 @@
     <title>Unit-4 Homework</title>
   </head>
   <body>
-      <header>hi</header>
+      <div class="container" id="main-container">
+                  <h1 id="title-text">Crystals Collector!</h1>
+            
+                <div id="instructions-row">
+                  <p>You will be given a random number at the start if the game.</p>
+        
+                  <p>
+                    There are four crystals below. By clicking on a crystal you will
+                    add a specific amount of points to your total score.
+                  </p>
+                  <p>
+                    You win the game by matching your total score to the random
+                    number, you lose the game if your total score goes above the
+                    random number.
+                  </p>
+                
+                  <p>
+                    The value of each crytal will be revealed when you click on it.
+                  </p>
+                
+                  <p>
+                    Each time the game starts, the random number and the value of each
+                    crystal will change.
+                  </p>
+              
+              </div>
+            </div>
+                <div id="random-number"> <span id="randomNumberText"></span> 
+                  </div>
+                  <div class="col-3" id="wins-losses">
+                      <div class="row" id="wins">
+                        <h3>Wins: <span id="winCount"></span>
+                        </h3>
+      
+                      </div>
+                      <div class="row" id="losses">
+                          <h3>Losses: <span id="lossCount"></span>
+      
+                      </div>
+                  </div>
+                  
+            </div>
+                  <div id="images"></div>
+                </div>
+      
+          
+    
+              <div id="totalScore">
+                <h4>Your total score is:</h4>
+              </div>
+          
+            <div id="currentScore">
+                  <h3><span id="currentScoreCounter"></span></h3>
+                </div>
+              </div>
+      
+      
+    </div>
+      
+      
+          <!-- Optional JavaScript -->
+          <script src="assets/javascript/game.js"></script>
   </body>
 </html>

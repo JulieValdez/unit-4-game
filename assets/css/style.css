@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(to right, #2f4f4f, #008b8b, #e0ffff);
+  background-size: cover;
+}
+
+#title-text {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding-top: 20px;
+  background-color: #e0ffff;
+  color: black;
+  text-align: center;
+}
+
+#instructions-row {
+  margin: 10px;
+  padding-left: 10px;
+  text-justify: auto;
+  background-color: darkgray;
+}
+
+#random-number {
+  margin: 10px;
+  padding-top: 20px;
+  background-color: #e0ffff;
+}
+
+#wins-losses {
+  margin: 10px;
+  padding-top: 20px;
+  background-color: #e0ffff;
+}

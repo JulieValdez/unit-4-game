@@ -3,6 +3,10 @@ body {
   background-size: cover;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #title-text {
   height: 100px;
   width: 300px;
@@ -23,13 +27,34 @@ body {
 }
 
 #random-number {
+  height: 100px;
+  width: 200px;
+  margin: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
   background-color: #e0ffff;
+  font-size: xx-large;
+  float: left;
 }
 
 #wins-losses {
+  height: 100px;
+  width: 200px;
   margin: 10px;
   padding-top: 20px;
   background-color: #e0ffff;
+  float: left;
+}
+
+#images {
+    clear: both;
+}
+
+.crystal-image {
+  clear: both;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
 }
 
 #totalScore {
